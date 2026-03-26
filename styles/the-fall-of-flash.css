@@ -1,0 +1,50 @@
+* {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+body {
+    width: 90%;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 40px;
+    align-items: center;
+}
+
+nav a {
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #212121;
+}
+
+main {
+    margin-top: 80px;
+}
+
+.content-section {
+    color: #212121;
+    overflow: auto;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.footer-bottom {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 50px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.float-right {
+    float: right;
+    width: 50%;
+    margin: 0 0 10px 15px;
+}
