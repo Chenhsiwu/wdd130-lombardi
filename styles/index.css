@@ -51,6 +51,16 @@ nav a {
 footer {
     color: var(--accent2-color);
     background-color: var(--primary-color);
+    height: 64px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    margin-top: 50px;
+    padding: 5px;
+    & a, div {
+        color: var(--accent2-color);
+    }
+    
 }
 
 main {
@@ -73,13 +83,7 @@ main {
     width: 100%;
 }
 
-.footer-bottom {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    height: 50px;
-    align-items: center;
-    margin-top: 50px;
-    & a, div {
-        color: var(--accent2-color);
-    }
+.media-links {
+    display: flex;
+    gap: 5px;
 }
